@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="BunTest" time="0.362" errors="0" skipped="0">
+<testsuite tests="12" failures="0" name="BunTest" time="0.012" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2022.2.3"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -64,6 +64,16 @@
     <property name="sun.stdout.encoding" value="UTF-8"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="BunTest" name="getName" time="0.362"/>
-  <testcase classname="BunTest" name="getPrice" time="0"/>
+  <testcase classname="BunTest" name="getName[Тестовые данные: black bun 10]" time="0.011"/>
+  <testcase classname="BunTest" name="getPrice[Тестовые данные: black bun 10]" time="0"/>
+  <testcase classname="BunTest" name="getName[Тестовые данные:  0]" time="0"/>
+  <testcase classname="BunTest" name="getPrice[Тестовые данные:  0]" time="0"/>
+  <testcase classname="BunTest" name="getName[Тестовые данные: null -10]" time="0"/>
+  <testcase classname="BunTest" name="getPrice[Тестовые данные: null -10]" time="0"/>
+  <testcase classname="BunTest" name="getName[Тестовые данные: Miracle_Long_Bun_Miracle_Long_Bun 339 999 995 214 436 420 000 000 000 000 000 000 000]" time="0.001"/>
+  <testcase classname="BunTest" name="getPrice[Тестовые данные: Miracle_Long_Bun_Miracle_Long_Bun 339 999 995 214 436 420 000 000 000 000 000 000 000]" time="0"/>
+  <testcase classname="BunTest" name="getName[Тестовые данные: 856492 40,123]" time="0"/>
+  <testcase classname="BunTest" name="getPrice[Тестовые данные: 856492 40,123]" time="0"/>
+  <testcase classname="BunTest" name="getName[Тестовые данные: !@#$%^&amp;*() 0]" time="0"/>
+  <testcase classname="BunTest" name="getPrice[Тестовые данные: !@#$%^&amp;*() 0]" time="0"/>
 </testsuite>
